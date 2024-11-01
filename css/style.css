@@ -1,0 +1,730 @@
+
+/*CSS Style Structure
+1. General Or Universal code,
+2. Import Google's Fonts,
+3. Header,
+4. Slider,
+5. Welcome,
+6. Portfolio,
+7. Services,
+8. Testimonial,
+9. videos,
+10. Contact,
+*/
+
+
+/*
+font-family: 'Roboto Slab', serif;
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
+
+/*
+font-family: 'Lato', sans-serif;
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+
+/*
+font-family: 'Raleway', sans-serif;
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic);
+
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+/*UNIVERSAL CODE*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto
+}
+.floatleft {
+    float: left
+}
+.floatright {
+    float: right
+}
+.fix {
+    overflow: hidden
+}
+.clear {
+    clear: both
+}
+.container {
+    transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    -ms-transition: all 0.9s ease 0s;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a,
+a:hover,
+a:focus,
+a:visited,
+a:hover {
+    text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+html {
+    height: 100%
+}
+/*body {
+}
+
+/* Remove Chrome Input Field’s Unwanted Yellow Background Color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 100px white inset !important;
+}
+
+/* Input focus color removed */
+input:focus {
+    /* Define the desired focus styles here */
+    outline: none; /* Example: remove outline on focus */
+    /* You can also add other styles like background color, border, etc. */
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+/*Bootstrap Form Control Focus*/
+
+.form-control:focus {
+    border-color: #fff;
+    border: 0px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/***************************/
+
+.zero_mp {
+    padding: 0;
+    margin: 0;
+}
+.margin_btm {
+    margin-bottom: 0px !important;
+}
+.sections{
+    padding: 80px 0;
+    overflow: hidden;
+    position: relative;
+}
+.min-spacing{
+    padding: 50px 0;
+    overflow: hidden;
+    position: relative;
+}
+/***********************************************/
+
+
+/*header*/
+
+
+/*Header Top header*/
+
+#header .top_header {
+    min-height: 50px;
+    background: #FBFBFB;
+    border-bottom: 2px solid #F2F2F2;
+    padding-top: 15px;
+}
+#header .top_header .address {
+    border-right: 1px solid #E6E5E5;
+}
+#header .top_header .address p {
+    font-size: 12px;
+    padding-top: 2px;
+    color: #646464;
+    font-family: 'Open Sans', sans-serif;
+}
+#header .top_header .phone p {
+    color: #646464;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1px;
+    display: inline-block;
+}
+#header .top_header .address i,
+#header .top_header .phone i {
+    padding: 3px 5px;
+    font-size: 15px;
+}
+#header .top_header .social_icon i {
+    padding: 0 5px;
+    color: #787878;
+    font-size: 12px;
+    font-weight: 700;
+}
+#header .top_header .social_icon i:hover {
+    color: #43A906;
+}
+
+/*End of top header*/
+
+#header .header_menu {
+    min-height: 80px;
+    border-bottom: 1px solid #3D3E3D;
+    z-index: 9999
+}
+#header .header_menu .navbar {
+    border: 0px solid transparent;
+}
+#header .header_menu .custom_navbar-brand {
+    padding-left: 0;
+}
+#header .header_menu .navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+}
+#header .header_menu .navbar-default .navbar-nav>.active>a,
+#header .header_menu .navbar-default .navbar-nav>.active>a:focus,
+#header .header_menu .navbar-default .navbar-nav>.active>a:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+#header .header_menu .main_menu {
+    padding-top: 20px;
+}
+#header .header_menu ul.main_menu li a {
+    color: #393939;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+#header .header_menu ul.main_menu li a:hover {
+    color: #4DA91C;
+}
+#header .header_menu ul.main_menu li.active a {
+    color: #4DA91C;
+}
+#header .header_menu ul.main_menu li,
+#header .header_menu ul.main_menu li.active a {
+    display: inline-block;
+    position: relative;
+}
+#header .header_menu ul.main_menu li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    margin-top: 6px;
+}
+#header .header_menu ul.main_menu li:hover:after,
+#header .header_menu ul.main_menu li.active:after {
+    width: 90%;
+    background: #4DA91C;
+}
+
+/*Slider*/
+
+#slider {
+    min-height: 490px;
+}
+#slider .slider_text {
+    padding-bottom: 13%;
+}
+#slider .slider_text h2 {
+    font-size: 52px;
+    padding: 10px 0;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+#slider .slider_text h3 {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+#slider .slider_text p {
+    font-size: 17px;
+    padding-bottom: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+#slider .slider_text a.custom_btn {
+    font-size: 14px;
+    color: #fff;
+    padding: 15px 25px;
+    background: #43a906;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+#slider .slider_text h2,
+#slider .slider_text h3,
+#slider .slider_text p,
+#slider .slider_text a.custom_btn {
+    text-transform: uppercase;
+}
+#slider .slider_text h3 {
+    font-size: 45px;
+    padding: 10px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+#slider .slider_overlay {
+    position: relative;
+}
+#slider .slider_overlay:after {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Slider Fade In*/
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+/* Welcome Section Styles */
+#welcome {
+    padding: 60px 0; /* Add padding for spacing */
+    background-color: #f0f8ff; /* Light background color for contrast */
+}
+
+.wel_header h2 {
+    font-size: 2.5rem; /* Larger font size for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.wel_header p {
+    font-size: 1.2rem; /* Slightly larger font for readability */
+    line-height: 1.6; /* Improve line spacing for better readability */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.wel_header div {
+    margin-top: 20px; /* Space above the director's title */
+}
+
+.wel_header div h2 {
+    font-size: 1.8rem; /* Font size for director's title */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    padding: 60px 0; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.portfolio_title h1 {
+    font-size: 2.5rem; /* Main title font size */
+    margin-bottom: 10px; /* Space below title */
+    color: #43A906;
+}
+
+.portfolio_title h2 {
+    font-size: 1.5rem; /* Subtitle font size */
+    margin-bottom: 40px; /* Space below subtitle */
+}
+
+.notes {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    justify-content: space-between; /* Evenly distribute space */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.note {
+    margin: 10px; /* Space between images */
+    flex: 0 0 calc(33.33% - 20px); /* Adjust for three columns with space for margins */
+    border-radius: 8px; /* Rounded corners for images */
+    overflow: hidden; /* Ensure images don't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.note img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.note img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .note {
+        flex: 0 0 calc(50% - 20px); /* Two columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .note {
+        flex: 0 0 calc(100% - 20px); /* One column for mobile */
+    }
+}
+
+
+/* Services Section Styles */
+#services {
+    padding: 60px 0; /* Add padding for top and bottom */
+    background-color: #ffffff; /* Background color for contrast */
+}
+
+.service_header h2 {
+    font-size: 2.5rem; /* Increase size for the section header */
+    margin-bottom: 30px; /* Space below the header */
+    
+}
+
+.service_item {
+    padding: 20px; /* Add padding inside each service item */
+    border: 1px solid #e1e1e1; /* Light border for definition */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth scaling effect */
+    background-color: #f9f9f9; /* Slightly different background */
+    text-align: center; /* Center text in service items */
+}
+
+.service_item h3 {
+    font-size: 1.75rem; /* Increase font size for service titles */
+    margin-bottom: 10px; /* Space below the title */
+    text-decoration: underline;
+    color: #43A906;
+}
+
+.service_item p {
+    font-size: 18px; /* Adjust the size as needed */
+    line-height: 1.5; /* Improve readability with line height */
+}
+
+/* Hover Effect */
+.service_item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .service_item {
+        margin-bottom: 20px; /* Space between items on smaller screens */
+    }
+}
+
+
+/* Testimonial */
+#testimonial {
+    color: #fff;
+    background: url(../img/img3.jpg) no-repeat scroll top center / cover;
+}
+
+.testimonial_overlay {
+    padding: 80px 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+#testimonial .testimonial_header h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+}
+
+#testimonial .testimonial_header p {
+    font-size: 50px;
+    color: #0a0a0a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Testimonials Content Styles */
+.testimonial_content {
+    font-size: 20px; /* Increased font size for testimonial text */
+    line-height: 1.6; /* Improved line spacing for better readability */
+    padding: 10px; /* Add some padding for breathing space */
+}
+
+.testimonial_content p {
+    color: #131212; /* Ensure text color is white for visibility */
+    font-size: 40px;
+}
+
+.testimonial_author h5 {
+    font-size: 30px; /* Increased size for author names */
+    margin-top: 10px; /* Space above author name */
+    font-weight: bold; /* Make author names bold */
+    color: #43A906;
+}
+
+.testimonial_author p {
+    font-size: 16px; /* Increased size for author roles */
+    color: #5db691; /* Slightly lighter color for differentiation */
+}
+
+/*videos*/
+
+#video {
+    padding: 60px 0; /* Add some padding for spacing */
+    color: #43A906;
+}
+
+.video {
+    margin-bottom: 30px; /* Add space between video items */
+}
+
+.single_video_item {
+    border: 1px solid #ddd; /* Optional: add a border to each video item */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    overflow: hidden; /* Prevents overflow of content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.video video {
+    width: 100%; /* Make the video responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.video_content h3 {
+    font-size: 18px; /* Adjust title size */
+    margin: 15px 0 10px; /* Add space around the title */
+}
+
+.video_news_content {
+    font-size: 14px; /* Optionally, you can add a description */
+    color: #777; /* Lighter color for description */
+    margin-bottom: 15px; /* Add space below the description */
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 60px 0; /* Add padding for spacing */
+}
+
+.contact_area h3 {
+    font-size: 2rem; /* Larger font size for the section title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #43A906;
+}
+
+.office {
+    background: #f9f9f9; /* Light background for contrast */
+    padding: 20px; /* Padding inside the office info box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.office_location i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.office_location div {
+    margin-bottom: 10px; /* Space between different info lines */
+}
+
+#map iframe {
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners for the map */
+}
+
+
+/*Back to Top*/
+
+#back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(84, 225, 0, 0.18);
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    opacity: 0;
+    display: none;
+    background: #43a906;
+}
+#back-to-top:hover {
+    color: #fff;
+    border-radius: 50%;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+    padding-top:0px;
+}
+
+
+
+/**/
+
+.section-wraper {
+    position: relative;
+}
+.section-edit {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+.section-abc {
+    background: rgba(255, 255, 255, 0.68);
+    padding: 2px 5px;
+    font-size: 12px;
+    font-style: italic;
+    display:none;
+}
+.section-edit:hover .section-abc{
+    display:inline;
+}
+.section-edit .post-edit-link {
+    margin: 10px 0;
+    padding: 2px 12px;
+}
+.section-edit .post-edit-link {
+    margin: 3px 0;
+    padding: 2px 12px;
+    font-size: 12px;
+    line-height: 1.45;
+}
+.section-edit .post-edit-link {
+    margin: 10px 0;
+    display: inline-block;
+    background: #E85757 ;
+    color: #fff!important;
+    padding: 2px 12px;
+    border-radius: 3px;
+}
+
+/*.contact_us_padding {
+    padding: 80px 0px;
+}*/
+#contact-us .wel_header {
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+
+#contact-us h3 {
+    font-size: 36px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#contact-us .wel_header h5 {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #222222;
+    padding-top: 0px
+}
+#contact-us .office_location i {
+    padding-bottom: 15px;
+}
+#contact-us .office_location i span {
+    padding-left: 15px;
+    color: #696969;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact-us .form-group {
+    margin-bottom: 0;
+}
+.wel_header.contact_us_h5 {
+    margin-left: -15px !important;
+}
