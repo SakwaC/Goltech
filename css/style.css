@@ -1,47 +1,15 @@
 
 /*CSS Style Structure
 1. General Or Universal code,
-2. Import Google's Fonts,
-3. Header,
-4. Slider,
-5. Welcome,
-6. Portfolio,
-7. Services,
-8. Testimonial,
-9. videos,
-10. Contact,
+2. Header,
+3. Slider,
+4. Welcome,
+5. Portfolio,
+6. Services,
+7. Testimonial,
+8. videos,
+9. Contact,
 */
-
-
-/*
-font-family: 'Roboto Slab', serif;
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
-
-/*
-font-family: 'Lato', sans-serif;
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
-
-/*
-font-family: 'Raleway', sans-serif;
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-
-/*
-font-family: 'Open Sans', sans-serif;
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic);
-
-/*
-font-family: 'Roboto', sans-serif;
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 
 /*UNIVERSAL CODE*/
 
@@ -698,7 +666,7 @@ input:focus {
     font-weight: 700;
     text-transform: uppercase;
     color: #222222;
-    font-family: 'Roboto Slab', serif;
+    
 
 }
 
@@ -708,18 +676,18 @@ input:focus {
     font-weight: 400;
     text-transform: uppercase;
     padding-bottom: 20px;
-    font-family: 'Roboto Slab', serif;
+    
     color: #222222;
     padding-top: 0px
 }
 #contact-us .office_location i {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 #contact-us .office_location i span {
     padding-left: 15px;
     color: #696969;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    
 }
 
 #contact-us .form-group {

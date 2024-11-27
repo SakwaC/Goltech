@@ -917,55 +917,6 @@
         font-size: 11px;
     }
     
-    #event {
-        padding-bottom: 20px;
-        padding-top: 15px;
-    }
-    .wel_header h2 {
-        font-size: 25px;
-        padding-bottom: 15px;
-    }
-    .wel_header p {
-        font-size: 13px;
-    }
-    #event .event_header h2 {
-        font-size: 16px;
-    }
-    #event .event_header {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    #event .event_header.text-center p {
-        font-size: 11px;
-    }
-    #event .event_text h4 {
-        font-size: 14px;
-    }
-    #event .event_text {
-        padding: 15px 30px 0;
-    }
-    #event .event_text h6 {
-        font-size: 10px;
-    }
-    #event .event_text p {
-        font-size: 10px;
-    }
-    #event a.event_btn {
-        font-size: 10px;
-    }
-
-    #event .event_news {
-        width: 100%;
-        padding-top: 10px;
-        padding-bottom: 5px;
-    }
-    #event .event_news_text h4 {
-        font-size: 12px;
-    }
-    #event .event_news_text p {
-        padding-top: 5px;
-        font-size: 10px;
-    }
     #testimonial .testimonial_header {
         padding-top: 20px;
     }
